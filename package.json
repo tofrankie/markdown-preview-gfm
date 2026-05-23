@@ -1,0 +1,24 @@
+{
+  "name": "markdown-preivew-gfm",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.33.4",
+  "author": "Frankie <1426203851@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "update-mpe-style": "node scripts/update-mpe-style.js",
+    "lint": "pnpm lint:eslint && pnpm lint:prettier && pnpm lint:stylelint",
+    "lint:eslint": "eslint . --cache --fix",
+    "lint:prettier": "prettier . --cache --write --log-level silent '!pnpm-lock.yaml'",
+    "lint:stylelint": "stylelint './**/*.{css,less}' --cache --fix"
+  },
+  "devDependencies": {
+    "@tofrankie/eslint": "^0.3.1",
+    "@tofrankie/prettier": "^0.2.0",
+    "@tofrankie/stylelint": "^0.3.0",
+    "eslint": "^10.4.0",
+    "prettier": "^3.8.3",
+    "stylelint": "^17.12.0"
+  }
+}

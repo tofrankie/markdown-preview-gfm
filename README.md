@@ -15,7 +15,7 @@ That’s why this project uses [Customize CSS](https://shd101wyy.github.io/markd
 1. Install the Markdown Preview Enhanced extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) or [Open VSX](https://open-vsx.org/extension/shd101wyy/markdown-preview-enhanced)
 2. Make sure the Preview Theme is set to `github-light` (the default theme)
 3. In the command palette, run `Markdown Preview Enhanced: Customize CSS (Global)` to open the global `style.less`
-4. Replace the content of your local `style.less` with the content from [github-light.less](./github-light.less)
+4. Replace the content of your local `style.less` with the content from [github-light.less](./shd101wyy.markdown-preview-enhanced/github-light.less)
 
 Global `style.less` file locations:
 
