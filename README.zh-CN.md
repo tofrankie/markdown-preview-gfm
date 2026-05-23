@@ -13,7 +13,7 @@
 1. 在 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) 或 [Open VSX](https://open-vsx.org/extension/shd101wyy/markdown-preview-enhanced) 下载安装 Markdown Preview Enhanced 扩展
 2. 确保 Markdown Preview Enhanced 扩展的 Preview Theme 是 `github-light` 或 `github-dark` 主题
 3. 在命令面板输入 `Markdown Preview Enhanced: Customize CSS (Global)` 打开全局 `style.less` 文件。
-4. 将 [github-markdown.less](./shd101wyy.markdown-preview-enhanced/github-markdown.less) 内容覆盖本地的 `style.less` 文件。
+4. 将 [github-markdown.less](./markdown-preview-enhanced/github-markdown.less) 内容覆盖本地的 `style.less` 文件。
 
 全局 `style.less` 文件路径：
 
