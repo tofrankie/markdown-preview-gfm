@@ -2,7 +2,7 @@
 
 I just love **bold text**. Italicized text is the _cat's meow_. At the command prompt, type `nano`.
 
-My favorite markdown editor is [ByteMD](https://github.com/pd4d10/bytemd).
+My favorite markdown editor is [ByteMD](https://github.com/pd4d10/bytemd). [**Playground**](https://bytemd.js.org/playground/)
 
 1. First item
 2. Second item
@@ -23,6 +23,8 @@ function sayHello() {
   console.log('Hello World')
 }
 ```
+
+Save the document by pressing <kbd>Ctrl</kbd> + <kbd>S</kbd>
 
 ## GFM Extended Syntax
 
