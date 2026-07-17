@@ -482,6 +482,11 @@
   border-radius: 0;
 }
 
+.markdown-body blockquote code,
+.markdown-body blockquote strong {
+  color: var(--fgColor-muted);
+}
+
 .markdown-body ul,
 .markdown-body ol {
   padding-left: 2em;

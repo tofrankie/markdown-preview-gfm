@@ -237,6 +237,7 @@
 
   b,
   strong {
+    color: var(--fgColor-default);
     font-weight: var(--base-text-weight-semibold, 600);
   }
 
@@ -455,6 +456,7 @@
     margin-bottom: var(--base-size-16);
     font-weight: var(--base-text-weight-semibold, 600);
     line-height: 1.25;
+    color: var(--fgColor-default);
   }
 
   h2 {
@@ -496,6 +498,10 @@
     color: var(--fgColor-muted);
     background-color: unset;
     border-left: 0.25em solid var(--borderColor-default);
+  }
+  blockquote strong,
+  blockquote code {
+    color: var(--fgColor-muted);
   }
 
   ul,
