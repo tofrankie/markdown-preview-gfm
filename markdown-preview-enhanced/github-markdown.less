@@ -220,6 +220,16 @@
     background-color: rgb(0 0 0 / 0%);
   }
 
+  blockquote a strong {
+    color: var(--fgColor-accent);
+  }
+
+  a.tag {
+    color: var(--fgColor-accent);
+    text-underline-offset: auto;
+    // TODO: background
+  }
+
   // override default color of a > code
   a code {
     color: var(--fgColor-accent);
@@ -237,8 +247,8 @@
 
   b,
   strong {
-    color: var(--fgColor-default);
     font-weight: var(--base-text-weight-semibold, 600);
+    color: var(--fgColor-default);
   }
 
   dfn {
@@ -499,6 +509,7 @@
     background-color: unset;
     border-left: 0.25em solid var(--borderColor-default);
   }
+
   blockquote strong,
   blockquote code {
     color: var(--fgColor-muted);
@@ -1041,6 +1052,14 @@
     border-radius: 6px;
   }
 
+  .footnotes li + li {
+    margin-top: 0;
+  }
+
+  .footnotes :not(pre) > code {
+    color: var(--fgColor-muted);
+  }
+
   .footnotes li:target {
     color: var(--fgColor-default);
   }
@@ -1424,6 +1443,11 @@
   // same with GitHub
   .mermaid {
     margin-bottom: var(--base-size-16);
+  }
+
+  .mermaid > svg {
+    display: block;
+    margin-inline: auto;
   }
 }
 
