@@ -1,4 +1,4 @@
-# markdown-preview-gfm
+# vscode-markdown-preview
 
 > [English](./README.md) | 中文
 
