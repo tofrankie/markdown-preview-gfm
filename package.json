@@ -10,8 +10,6 @@
   "scripts": {
     "update-mpe-style": "node scripts/update-mpe-style.js",
     "update-mpe-style:watch": "node scripts/update-mpe-style.js --watch",
-    "update-obsidian-theme": "node scripts/update-obsidian-theme.js",
-    "update-obsidian-theme:watch": "node scripts/update-obsidian-theme.js --watch",
     "lint": "pnpm lint:eslint && pnpm lint:prettier && pnpm lint:stylelint",
     "lint:eslint": "eslint . --cache --fix",
     "lint:prettier": "prettier . --cache --write --log-level silent '!pnpm-lock.yaml'",
@@ -20,11 +18,11 @@
   "devDependencies": {
     "@tofrankie/eslint": "^0.5.0",
     "@tofrankie/prettier": "^0.2.0",
-    "@tofrankie/stylelint": "^0.3.1",
+    "@tofrankie/stylelint": "^0.4.0",
     "chokidar": "^5.0.0",
-    "eslint": "^10.7.0",
+    "eslint": "^10.8.0",
     "github-markdown-css": "^5.9.0",
-    "prettier": "^3.9.5",
-    "stylelint": "^17.14.0"
+    "prettier": "^3.9.6",
+    "stylelint": "^17.14.1"
   }
 }
