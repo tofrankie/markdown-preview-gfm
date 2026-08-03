@@ -44,7 +44,7 @@
 ## 致谢
 
 - [shd101wyy/vscode-markdown-preview-enhanced](https://github.com/shd101wyy/vscode-markdown-preview-enhanced)
-- [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css#readme)
+- [tofrankie/github-markdown-css](https://github.com/tofrankie/github-markdown-css)
 
 ## License
 
